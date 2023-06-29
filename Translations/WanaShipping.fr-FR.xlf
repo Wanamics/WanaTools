@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="fr-FR" original="WanaShipping.g.xlf">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 392194736 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Click &amp; Collect Employee</source>
+          <target>Magasinier click &amp; collect</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table wan Click &amp; Collect Employee - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 392194736 - Field 2902851687 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Resource Name</source>
+          <target>Nom de la ressource</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table wan Click &amp; Collect Employee - Field Resource Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 392194736 - Field 3961767479 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Resource No.</source>
+          <target>N° ressource</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table wan Click &amp; Collect Employee - Field Resource No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 392194736 - Field 4045368290 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shipping Agent Code</source>
+          <target>Code transporteur</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table wan Click &amp; Collect Employee - Field Shipping Agent Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 392194736 - Field 2730811709 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shipping Agent Service Code</source>
+          <target>Code prestation transporteur</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table wan Click &amp; Collect Employee - Field Shipping Agent Service Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 392194736 - Field 2708250016 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>User ID</source>
+          <target>Code utilisateur</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table wan Click &amp; Collect Employee - Field User ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 475681590 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shipping Agent Label Setup</source>
+          <target>Paramètres étiquette transporteur</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table wan Shipping Agent Label Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 475681590 - Method 469483275 - NamedType 2081919510" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Get API key error for %1 %2</source>
+          <target>Erreur d'obtention de la clé API pour %1 %2</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table wan Shipping Agent Label Setup - Method GetAPIKey - NamedType APIKeyErr</note>
+        </trans-unit>
+        <trans-unit id="Table 475681590 - Field 1368883901 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>EndPoint</source>
+          <target>Point de terminaison</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table wan Shipping Agent Label Setup - Field EndPoint - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 475681590 - Field 3896318658 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Expire Offset</source>
+          <target>Délai d'expiration</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table wan Shipping Agent Label Setup - Field Expire Offset - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 475681590 - Field 1671043930 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Label Type</source>
+          <target>Type étiquette</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table wan Shipping Agent Label Setup - Field Label Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 475681590 - Field 351181786 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Our Account No.</source>
+          <target>Notre n° cpte/fourn.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table wan Shipping Agent Label Setup - Field Our Account No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 475681590 - Field 944369224 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Our Center No.</source>
+          <target>Notre N° de centre</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table wan Shipping Agent Label Setup - Field Our Center No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 475681590 - Field 1163280279 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Our Country Code</source>
+          <target>Notre code pays</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table wan Shipping Agent Label Setup - Field Our Country Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 475681590 - Field 3594196128 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Our User ID</source>
+          <target>Notre code utilisateur</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table wan Shipping Agent Label Setup - Field Our User Id - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 475681590 - Field 1272245069 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Report ID</source>
+          <target>ID état</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table wan Shipping Agent Label Setup - Field Report ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 475681590 - Field 4022742660 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reverse Type</source>
+          <target>Type de retour</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table wan Shipping Agent Label Setup - Field Reverse Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 475681590 - Field 1896974463 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Service Type</source>
+          <target>Type de service</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table wan Shipping Agent Label Setup - Field Service Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 475681590 - Field 4045368290 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shipping Agent Code</source>
+          <target>Code transporteur</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table wan Shipping Agent Label Setup - Field Shipping Agent Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 475681590 - Field 2730811709 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shipping Agent Service Code</source>
+          <target>Code prestation transporteur</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table wan Shipping Agent Label Setup - Field Shipping Agent Service Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 985043019 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shipping Agent Cost</source>
+          <target>Coût transport</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table wan Shipping Cost - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 985043019 - Field 3196053552 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cost (LCY)</source>
+          <target>Coût DS</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table wan Shipping Cost - Field Cost (LCY) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 985043019 - Field 4045368290 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shipment Agent Code</source>
+          <target>Code transporteur</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table wan Shipping Cost - Field Shipping Agent Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 985043019 - Field 1910925364 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shipment Agent Services Code</source>
+          <target>Code prestation transporteur</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table wan Shipping Cost - Field Shipping Agent Services Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 985043019 - Field 1486803916 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Starting Weight</source>
+          <target>Poids début</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table wan Shipping Cost - Field Starting Weight - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2107964573 - Method 3117446396 - NamedType 3603035716" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unable to find %1 in http response</source>
+          <target>%1 absent de la réponse http</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit wan Shipping Agent API Mgt. - Method Select - NamedType LabelNotFoundErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2107964573 - Method 3212637975 - NamedType 3671444394" size-unit="char" translate="yes" xml:space="preserve">
+          <source>API Response (StatusCode %1) : %2</source>
+          <target>Réponse API (statut %1) : %2</target>
+          <note from="Developer" annotates="general" priority="2">%1 = HttpCode, %2 = faultstring</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit wan Shipping Agent API Mgt. - Method SendRequest - NamedType APIResponseErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2107964573 - Method 3212637975 - NamedType 2185186290" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unsupported content to send.</source>
+          <target>Contenu à envoyé non supporté.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit wan Shipping Agent API Mgt. - Method SendRequest - NamedType UnsupportedContentToSendErr</note>
+        </trans-unit>
+        <trans-unit id="Page 3183045127 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Click &amp; Collect Activities</source>
+          <target>Activités Click &amp; Collect</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page wan Click &amp; Collect Activities - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3183045127 - Control 2486868402 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Click &amp; Collect</source>
+          <target>Click &amp; Collect</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page wan Click &amp; Collect Activities - Control Click &amp; Collect - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3183045127 - Control 2886814644 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of pending Click &amp; Collect to receive assigned to you as a Shipping Agent.</source>
+          <target>Spécifie le nombre de Click &amp; Collect à recevoir qui vous sont affectés en tant que 'transporteur'.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page wan Click &amp; Collect Activities - Control ToReceive - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3183045127 - Control 2886814644 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>To receive</source>
+          <target>À recevoir</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page wan Click &amp; Collect Activities - Control ToReceive - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3183045127 - Control 599302819 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of pending Click &amp; Collect to ship assigned to you as a Shipping Agent.</source>
+          <target>Spécifie le nombre de Click &amp; Collect à livrer qui vous sont affectés en tant que 'transporteur'.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page wan Click &amp; Collect Activities - Control ToShip - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3183045127 - Control 599302819 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>To ship</source>
+          <target>À livrer</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page wan Click &amp; Collect Activities - Control ToShip - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 720387473 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Click &amp; Collect Employees</source>
+          <target>Magasiniers click &amp; collect</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page wan Click &amp; Collect Employees - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 720387473 - Control 3961767479 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Resource No. field.</source>
+          <target>Spécifie la valeur du N° ressource</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page wan Click &amp; Collect Employees - Control Resource No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 720387473 - Control 4045368290 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Shipping Agent Code field.</source>
+          <target>Spécifie la valeur de Code transporteur.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page wan Click &amp; Collect Employees - Control Shipping Agent Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 720387473 - Control 2730811709 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Shipping Agent Service Code field.</source>
+          <target>Spécifie la valeur de Code service transporteur.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page wan Click &amp; Collect Employees - Control Shipping Agent Service Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 720387473 - Control 2708250016 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the ID of the user who posted the entry, to be used, for example, in the change log.</source>
+          <target>Spécifie l'ID de l'utilisateur qui a validé l'écriture à utiliser, par exemple, dans le journal modification.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page wan Click &amp; Collect Employees - Control User ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1239978783 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Click &amp; Collect</source>
+          <target>Click &amp; collect</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page wan Click &amp; Collect Shipments - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1239978783 - Control 782762290 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Search</source>
+          <target>Rechercher</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page wan Click &amp; Collect Shipments - Control Search - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1239978783 - Control 671768133 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>External Document No.</source>
+          <target>N° doc. externe</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page wan Click &amp; Collect Shipments - Control ExternalDocumentNoFilter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1239978783 - Control 1705979695 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sell-to Contact</source>
+          <target>Contact donneur d’ordre</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page wan Click &amp; Collect Shipments - Control SellToContactFilter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1239978783 - Action 2033576344 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Post Delivery</source>
+          <target>Valider livraison</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page wan Click &amp; Collect Shipments - Action PostDelivery - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1239978783 - Action 2033576344 - Method 1377591017 - NamedType 2294662597" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you confirm delivery below?\  - %1\  - %2\  - %3</source>
+          <target>Voulez-vous valider la livraison ci dessous ?\\ - %1\ - %2\ - %3</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page wan Click &amp; Collect Shipments - Action PostDelivery - Method OnAction - NamedType ConfirmMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 1239978783 - Action 500196148 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Post Selection</source>
+          <target>Valider la sélection</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page wan Click &amp; Collect Shipments - Action PostSelection - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1239978783 - Action 500196148 - Method 1377591017 - NamedType 2294662597" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to set %1 for %2 "%3"?</source>
+          <target>Voulez-vous modifier %1 pour %2 "%3" ?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page wan Click &amp; Collect Shipments - Action PostSelection - Method OnAction - NamedType ConfirmMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 1239978783 - Action 1002420131 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Print</source>
+          <target>Imprimer</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page wan Click &amp; Collect Shipments - Action Print - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 475681590 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shipping Agent Label Setup</source>
+          <target>Paramètres étiquette transporteur</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page wan Shipping Agent Label Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 475681590 - Control 1951792025 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of API Key</source>
+          <target>Spécifie la valeur de la clé API.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page wan Shipping Agent Label Setup - Control APIKey - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 475681590 - Control 1951792025 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>API Key</source>
+          <target>Clé API</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page wan Shipping Agent Label Setup - Control APIKey - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 475681590 - Control 1368883901 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the EndPoint field.</source>
+          <target>Spécifie la valeur du point de terminaison.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page wan Shipping Agent Label Setup - Control EndPoint - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 475681590 - Control 3896318658 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Expire Offset field.</source>
+          <target>Spécifie la valeur du délai d'expiration.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page wan Shipping Agent Label Setup - Control Expire Offset - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 475681590 - Control 1671043930 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Label Type field.</source>
+          <target>Spécifie la valeur du type étiquette.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page wan Shipping Agent Label Setup - Control Label Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 475681590 - Control 351181786 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Our Account No. field.</source>
+          <target>Spécifie la valeur de notre N° compte.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page wan Shipping Agent Label Setup - Control Our Account No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 475681590 - Control 944369224 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Our Center No. field.</source>
+          <target>Spécifie la valeur de notre N° de centre.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page wan Shipping Agent Label Setup - Control Our Center No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 475681590 - Control 1163280279 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Our Country Code field.</source>
+          <target>Spécifie la valeur de Notre code pays.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page wan Shipping Agent Label Setup - Control Our Country Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 475681590 - Control 367773568 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Our User ID field.</source>
+          <target>Spécifie la valeur de notre Code utilisateur.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page wan Shipping Agent Label Setup - Control Our User ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 475681590 - Control 1272245069 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Report ID field.</source>
+          <target>Spécifie la valeur de ID état.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page wan Shipping Agent Label Setup - Control Report ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 475681590 - Control 4022742660 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Reverse Type field.</source>
+          <target>Spécifie la valeur du Type de retour.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page wan Shipping Agent Label Setup - Control Reverse Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 475681590 - Control 1896974463 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Service Type field.</source>
+          <target>Spécifie la valeur de Type de service.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page wan Shipping Agent Label Setup - Control Service Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 475681590 - Control 4045368290 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Shipping Agent Code field.</source>
+          <target>Spécifie la valeur de Code transporteur.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page wan Shipping Agent Label Setup - Control Shipping Agent Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 475681590 - Control 2730811709 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Shipping Agent Service Code field.</source>
+          <target>Spécifie la valeur de Code service transporteur.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page wan Shipping Agent Label Setup - Control Shipping Agent Service Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2417831894 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shipping Costs</source>
+          <target>Coût transport</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page wan Shipping Costs - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1239978783 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Click &amp; Collect Shipments</source>
+          <target>Livraisons click &amp; collect</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report wan Click &amp; Collect Shipments - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3147987066 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Click &amp; Collect Label</source>
+          <target>Etiquette Click &amp; Collect</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report wan ClickCollect Label - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3056144569 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Standard Shipping Label</source>
+          <target>Etiquette transporteur par défaut</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report wan Default Shipping Label - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3964821024 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DPD Shipping Label</source>
+          <target>Etiquette DPD</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report wan DPD Shipping Label - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3964821024 - Method 3117446396 - NamedType 3603035716" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unable to find %1 in http response</source>
+          <target>%1 absent de la réponse http</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report wan DPD Shipping Label - Method Select - NamedType LabelNotFoundErr</note>
+        </trans-unit>
+        <trans-unit id="Report 3964821024 - ReportDataItem 4208835177 - Method 3245603402 - NamedType 1803812000" size-unit="char" translate="yes" xml:space="preserve">
+          <source>API Request Error : "%1" for %2</source>
+          <target>Erreur de requête API : "%1" pour %2</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report wan DPD Shipping Label - ReportDataItem SalesShipmentHeader - Method OnAfterGetRecord - NamedType RequestErr</note>
+        </trans-unit>
+        <trans-unit id="Report 2660978810 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Outstanding Shipping Label</source>
+          <target>Etiquette livraison en attente</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report wan Outstanding Shipping Label - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2060609191 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shipping Label</source>
+          <target>Etiquette transporteur</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report wan Shipping Agent Label - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2060609191 - ReportDataItem 4208835177 - Method 3245603402 - NamedType 2294662597" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to replace existing "%1" '%2' for %3 %4?</source>
+          <target>Voulez-vous remplacer "%1" '%2' pour %3 %4 ?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report wan Shipping Agent Label - ReportDataItem SalesShipmentHeader - Method OnAfterGetRecord - NamedType ConfirmMsg</note>
+        </trans-unit>
+        <trans-unit id="XmlPort 3614171519 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DPD CreateShipmentWithLabelsBc</source>
+          <target>DPD CreateShipmentWithLabelsBc</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">XmlPort wan DPD CreateShptWithLabelsBc - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4155219687 - Action 2107727414 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4577671">
+          <source>Shipping Costs</source>
+          <target>Coût transport</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension wan Shipping Agent Services - Action wanShippingCosts - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4155219687 - Control 1335439470 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4577671">
+          <source>Specifies the value of the Shipping Cost Overhead % field.</source>
+          <target>Spécifie la valeur du % majoration.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension wan Shipping Agent Services - Control wan Shipping Cost Overhead % - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4155219687 - Control 643849228 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4577671">
+          <source>Specifies the value of the Shipping Fixed Cost (LCY) field.</source>
+          <target>Spécifie la valeur des frais fixes (DS).</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension wan Shipping Agent Services - Control wan Shipping Fixed Cost (LCY) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2683231556 - Action 2341419264 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4073709604">
+          <source>Setup</source>
+          <target>Paramètres</target>
+          <target>[NAB: SUGGESTION]Configuration</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension wan Shipping Agents - Action wanShippingAgentSetup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2683231556 - Control 614057435 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4073709604">
+          <source>Specifies the value of the Tracking Codeunit Id field.</source>
+          <target>Spécifie la valeur du codeunit de suisi colis.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension wan Shipping Agents - Control wan Tracking Codeunit ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3952519865 - Field 1364314280 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3118382297">
+          <source>Delivered</source>
+          <target>Livré</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension wan Sales Shipment Header - Field wan Delivered - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3952519865 - Field 3465325262 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3118382297">
+          <source>Delivered by Resource No.</source>
+          <target>Livré par N° ressource</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension wan Sales Shipment Header - Field wan Delivered by Resource No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3952519865 - Field 81163991 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3118382297">
+          <source>Delivery Date Time</source>
+          <target>Date-heure livraison</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension wan Sales Shipment Header - Field wan Delivery Date Time - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3952519865 - Field 1682267829 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3118382297">
+          <source>Shelf No.</source>
+          <target>N° emplacement</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension wan Sales Shipment Header - Field wan Shelf No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4208809997 - Field 614057435 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2271291437">
+          <source>Tracking Codeunit Id</source>
+          <target>Id Codeunit suivi colis</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension wan Shipping Agent - Field wan Tracking Codeunit ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4155219687 - Field 1335439470 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4577671">
+          <source>Shipping Cost Overhead %</source>
+          <target>% majoration coût transport</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension wan Shipping Agent Services - Field wan Shipping Cost Overhead % - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4155219687 - Field 643849228 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4577671">
+          <source>Shipping Fixed Cost (LCY)</source>
+          <target>Coût fixe transport (DS)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension wan Shipping Agent Services - Field wan Shipping Fixed Cost (LCY) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PermissionSet 2050883968 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>WanaShipping Click &amp; Collect</source>
+          <target>WanaShipping Click &amp; Collect</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PermissionSet WanaShipping_CC - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PermissionSet 3070255629 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>WanaShipping Setup</source>
+          <target>WanaShipping Setup</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PermissionSet WanaShipping_SETUP - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

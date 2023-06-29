@@ -1,32 +1,42 @@
 {
   "id": "61147e9e-e164-4190-9d5a-9203a546f04d",
-  "name": "WanaTools",
+  "name": "WanaShipping",
   "publisher": "Wanamics",
-  "version": "1.0.0.0",
+  "version": "1.0.0.24",
   "brief": "",
   "description": "",
   "privacyStatement": "",
   "EULA": "",
   "help": "",
   "url": "",
-  "logo": "",
-  "dependencies": [],
+  "logo": "Wanamics90x90.png",
+  "dependencies": [
+    {
+    "id": "90e25ba4-2148-4ce0-9a6a-2b7e8ddeaf88",
+    "name": "Print Solution",
+    "publisher": "isatech",
+    "version": "21.0.8472.70019"
+    }
+  ],
   "screenshots": [],
   "platform": "1.0.0.0",
   "application": "21.0.0.0",
   "idRanges": [
     {
-      "from": 87090,
-      "to": 87099
+      "from": 87110,
+      "to": 87129
     }
   ],
+  "contextSensitiveHelpUrl": "https://www.wanamics.fr/support/",
   "resourceExposurePolicy": {
     "allowDebugging": true,
     "allowDownloadingSource": true,
     "includeSourceInSymbolFile": true
   },
-  "runtime": "10.0",
+  "runtime": "11.0",
   "features": [
-    "NoImplicitWith"
+    "NoImplicitWith",
+    "TranslationFile", 
+    "GenerateCaptions"
   ]
 }
