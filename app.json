@@ -1,0 +1,35 @@
+{
+  "id": "61147e9e-e164-4190-9d5a-9203a546f04d",
+  "name": "WanaTools",
+  "publisher": "Wanamics",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "21.0.0.0",
+  "idRanges": [
+    {
+      "from": 87090,
+      "to": 87099
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "10.0",
+  "features": [
+    "NoImplicitWith"
+  ]
+  ,
+  "target": "OnPrem",
+  "preprocessorSymbols": ["ONPREM"]
+}
