@@ -10,7 +10,7 @@ PROCESSUS :
 - Execute the .sql (!!! WARNING double check target database and ToCompanyName !!!)
 
 WARNING :
--When a field has the property { AutoIncrement = true; }, SQL command 'Set Identity_Insert' is added ('on' before 'Insert to' and 'off' after)
+- When a field has the property { AutoIncrement = true; }, SQL command 'Set Identity_Insert' is added ('on' before 'Insert to' and 'off' after)
     I don't found any way to check this property by code, so you have to add your own tables to the HasAutoIncrementIdentity procedure.
 */
 {
