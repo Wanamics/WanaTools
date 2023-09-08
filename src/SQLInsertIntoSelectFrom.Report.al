@@ -5,13 +5,18 @@ PREREQUISITE :
 - User must have 'SUPER' PermissionSet
 
 PROCESSUS :
+- Create the company in the target envisonment
 - Deploy this extension to the 'source' environment
 - Run this report from the URL (...?Report=xxx)
+    From Database
+    To Database
+    To company (current CompanyName is suggested but can be modified, s Company)
 - Execute the .sql (!!! WARNING double check target database and ToCompanyName !!!)
 
 WARNING :
 - When a field has the property { AutoIncrement = true; }, SQL command 'Set Identity_Insert' is added ('on' before 'Insert to' and 'off' after)
     I don't found any way to check this property by code, so you have to add your own tables to the HasAutoIncrementIdentity procedure.
+- The ÿ (Alt+152) char in tablename or fieldname, must be replaced by the Alt+255 char (non-breaking space).
 */
 {
     Caption = 'SQL InsertIntoSelectFrom';
@@ -22,31 +27,18 @@ WARNING :
     {
         dataitem(Company; Company)
         {
-            // RequestFilterFields = Name;
             DataItemTableView = sorting(Name);
             dataitem(PublishedApplication; "Published Application")
             {
-                // RequestFilterFields = "Runtime Package ID";
                 DataItemTableView = sorting("Runtime Package ID");
 
                 dataitem(PerCompanyTable; AllObj)
                 {
                     DataItemTableView = sorting("Object Type", "Object ID") where("Object Type" = const(Table));
-                    // RequestFilterFields = "Object ID";
-                    // RequestFilterHeading = 'Per company Tables';
-
-                    // trigger OnPreDataitem()
-                    // begin
-                    //     Progress.Open('@1@@@@@@@@@@@@@@@@@@');
-                    //     gCount := Count;
-                    // end;
-
                     trigger OnAfterGetRecord()
                     var
                         TableMetadata: Record "Table Metadata";
                     begin
-                        // gProgress += 1;
-                        // Progress.Update(1, gProgress * 10000 div gCount);
                         if not IsTemporary then begin
                             TableMetadata.Get("Object ID");
                             if TableMetadata.DataPerCompany and
@@ -58,24 +50,10 @@ WARNING :
                                     InsertIntoSelectFromExtension(PerCompanyTable, PublishedApplication);
                         end;
                     end;
-
-                    // trigger OnPostDataItem()
-                    // begin
-                    //     Progress.Close;
-                    // end;
                 }
                 dataitem(GlobalTableWithCompanyName; AllObj)
                 {
-                    //DataItemTableView = sorting(Name) where(DataPerCompany = const(false), TableType = const(Normal), ObsoleteState = const(No));
                     DataItemTableView = sorting("Object Type", "Object ID") where("Object Type" = const(Table));
-                    // RequestFilterFields = ID;
-                    // RequestFilterHeading = 'Global Tables';
-
-                    // trigger OnPreDataItem()
-                    // begin
-                    //     WriteText('');
-                    //     WriteText('-- GlobalTableWithCompanyName begin');
-                    // end;
                     trigger OnPreDataItem()
                     begin
                         SetRange("App Package ID", PublishedApplication."Package ID");
@@ -92,7 +70,6 @@ WARNING :
                                (TableMetadata.ObsoleteState = TableMetadata.ObsoleteState::No) then
                                 if HasFieldCompanyName("Object ID") then begin
                                     WriteText('-- ' + Format("Object ID") + ' (per Database) ' + PublishedApplication.Name + ' (' + PublishedApplication.Publisher + ')');
-                                    // if ReplaceAll then
                                     WriteText('Delete ' + SQLTableName('', "Object Name", PublishedApplication.ID) + ' Where [Company Name] = ''' + ToCompanyName + '''');
                                     if HasAutoIncrementIdentity("Object ID") then
                                         WriteText('Set Identity_Insert ' + SQLTableName('', "Object Name", PublishedApplication.ID) + ' On');
@@ -106,39 +83,9 @@ WARNING :
                                 end;
                         end;
                     end;
-                    // trigger OnPostDataItem()
-                    // begin
-                    //     WriteText('');
-                    //     WriteText('-- GlobalTableWithCompanyName end');
-                    // end;
                 }
             }
 
-            // trigger OnPreDataItem()
-            // var
-            //     ConfirmMsg: Label 'Do you want to create a SQL script for %1 and for %2?';
-            //     CompanyLbl: Label 'company %1 only';
-            //     CompaniesLbl: Label '%1 companies';
-            //     AppLbl: Label 'application %1 from %2 only';
-            //     AppsLbl: Label '%1 applications';
-            //     CompanyMsg: Text;
-            //     AppMsg: Text;
-            // begin
-            //     if Count > 1 then
-            //         CompanyMsg := StrSubstNo(CompaniesLbl, Count)
-            //     else
-            //         if FindFirst() then
-            //             CompanyMsg := StrSubstNo(CompanyLbl, Company.Name);
-
-            //     if PublishedApplication.Count <> 1 then
-            //         AppMsg := StrSubstNo(AppsLbl, PublishedApplication.Count)
-            //     else
-            //         if PublishedApplication.FindFirst() then
-            //             AppMsg := StrSubstNo(AppLbl, PublishedApplication.Name, PublishedApplication.Publisher);
-
-            //     if not Confirm(ConfirmMsg, false, CompanyMsg, AppMsg) then
-            //         CurrReport.Quit();
-            // end;
             trigger OnPreDataItem()
             var
                 ConfirmMsg: Label 'Do you want to create a SQL script to copy company %1 from database %2 to %3?';
@@ -175,29 +122,10 @@ WARNING :
                     {
                         Caption = 'To Database';
                     }
-                    // field(Company.Name; Company.Name)
-                    // {
-                    //     Caption = 'From Company';
-                    //     TableRelation = Company;
-                    // }
                     field(ToCompany; ToCompanyName)
                     {
                         Caption = 'To Company Name';
                     }
-
-                    // field(FromAppPackageID; PublishedApplication."Runtime Package ID")
-                    // {
-                    //     Caption = 'From App Package ID';
-                    //     TableRelation = "Published Application";
-                    // }
-                    // field(SkipIfEmpty; SkipIfEmpty)
-                    // {
-                    //     Caption = 'Skip if Empty';
-                    // }
-                    // field(ReplaceAll; ReplaceAll)
-                    // {
-                    //     Caption = 'Replace All';
-                    // }
                 }
             }
         }
@@ -214,8 +142,6 @@ WARNING :
 
     trigger OnPreReport()
     begin
-        // PublishedApplication.Get(PublishedApplication."Runtime Package ID");
-        //Company.TESTFIELD(Name);
         TempBlob.CreateOutstream(oStream);
         WriteText('Use [' + ToDatabase + ']');
         WriteText('GO');
@@ -225,45 +151,23 @@ WARNING :
     trigger OnPostReport()
     begin
         WriteText('Commit');
-        FileManagement.BLOBExport(TempBlob, 'CopyCompany.sql', true);
+        FileManagement.BLOBExport(TempBlob, StrSubstNo('CopyCompany%1.sql', CompanyName), true);
     end;
 
     var
         FromDatabase: Text;
         ToDatabase: Text;
-        // Company.Name: Text;
         ToCompanyName: Text;
-        // Progress: Dialog;
-        // gCount: Integer;
-        // gProgress: Integer;
         ProgressDialog: Codeunit "Progress Dialog";
         oStream: OutStream;
         TempBlob: Codeunit "Temp Blob";
-        // ConfirmReplace: label 'File %1 already exists. Do you want to replace it ?';
         FileManagement: Codeunit "File Management";
-    // ReplaceAll: Boolean;
-    // SkipIfEmpty: Boolean;
-
-    // local procedure IsSelected(var pRec: Record AllObj): Boolean
-    // var
-    //     RecRef: RecordRef;
-    // begin
-    //     if not SkipIfEmpty then
-    //         exit(false);
-    //     RecRef.Open(pRec."Object ID");
-    //     if SkipIfEmpty then
-    //         exit(not RecRef.IsEmpty)
-    //     else
-    //         exit(true);
-    // end;
 
     local procedure InsertIntoSelectFrom(pRec: Record AllObj; pPublishedApplication: Record "Published Application")
     var
         Fields: Text;
     begin
-        // IsSelected(pRec);
         WriteText('-- ' + Format(pRec."Object ID") + ' ' + pPublishedApplication.Name + ' (' + pPublishedApplication.Publisher + ')');
-        // if ReplaceAll then
         WriteText('Delete ' + SQLTableName(ToCompanyName, pRec."Object Name", pPublishedApplication.ID));
         if HasAutoIncrementIdentity(pRec."Object ID") then
             WriteText('Set Identity_Insert ' + SQLTableName(ToCompanyName, pRec."Object Name", pPublishedApplication.ID) + ' On');
@@ -288,10 +192,8 @@ WARNING :
         Field.SetRange(Enabled, true);
         if Field.IsEmpty then
             exit;
-        // IsSelected(pRec);
         Dependency.Get(pRec."App Runtime Package ID");
         WriteText('-- ' + Format(pRec."Object ID") + ' ' + pPublishedApplication.Name + ' (' + pPublishedApplication.Publisher + ') extends ' + Dependency.Name + ' (' + Dependency.Publisher + ')');
-        // if ReplaceAll then
         WriteText('Delete ' + SQLTableName(ToCompanyName, pRec."Object Name", pPublishedApplication.ID));
         Fields := PrimaryKeyFields(pRec."Object ID") + ',' + FieldList(pRec."Object ID", '', pPublishedApplication."Package ID");
         WriteText('Insert into ' + SQLTableName(ToCompanyName, pRec."Object Name", pPublishedApplication.ID));
@@ -326,8 +228,7 @@ WARNING :
         Field.SetRange(TableNo, pTableID);
         Field.SetRange(Class, Field.Class::Normal);
         Field.SetRange(Enabled, true);
-        // Field.SetRange("No.", 1, 2000000000); // keep [$systemId] but avoid ([SystemCreatedAt],[SystemCreatedBy],[SystemModifiedAt],[SystemModifiedBy])
-        Field.SetRange("App Package ID", pPackageID); //PublishedApplication."Package ID");
+        Field.SetRange("App Package ID", pPackageID);
         if Field.FindSet then
             repeat
                 if ReturnValue <> '' then
@@ -350,14 +251,19 @@ WARNING :
             exit('[dbo].[' + SQL_Name(pCompanyName) + '$' + SQL_Name(pName) + '$' + FormatGUID(pAppID) + ']');
     end;
 
-    // local procedure SQLFieldName(pName: Text): Text
-    // begin
-    //     exit(ConvertStr(pName, '.%/''', '____'));
-    // end;
-
     local procedure SQL_Name(pName: Text): Text
     begin
+        ReplaceNonBreakingSpace(pName);
         exit(ConvertStr(pName, '.%/''', '____'));
+    end;
+
+    local procedure ReplaceNonBreakingSpace(var pName: Text) // ÿ non-braking space Alt+152 -> Alt+255
+    var
+        i: Integer;
+    begin
+        for i := 1 to StrLen(pName) do
+            if pName[i] = 152 then
+                pName[i] := 255;
     end;
 
     local procedure FormatGUID(pGUID: Guid): Text
@@ -373,12 +279,6 @@ WARNING :
         CRLF[2] := 10;
         oStream.WriteText(pText + CRLF);
     end;
-    // local procedure UpdateCompanyInformation(): Text
-    // var
-    //     CompanyInformation: Record "Company Information";
-    // begin
-    //     exit('Update ' + SQLTableName(??Company, CompanyInformation.TableName) + ' Set [System Indicator] = ' + Format(CompanyInformation."system indicator"::Custom));
-    // end;
 
     local procedure HasFieldCompanyName(pTableID: Integer): Boolean
     var
@@ -493,6 +393,10 @@ WARNING :
             Database::"Payment Period Setup",
             57011, //Database::"_Codexia Entry",
             4703, //Database::"VAT Group Submission Line",
+            50042, //Database::"Report Message",
+            9018, //Database::"Custom Permission Set In Plan",
+            9048, //Database::"Custom User Group In Plan",
+            5490, //Database::"Onboarding Signal",
 
             Database::"Batch Processing Session Map":
                 exit(true);
